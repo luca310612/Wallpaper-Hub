@@ -12,18 +12,25 @@ struct WallpaperHubApp: App {
         }
         .windowStyle(.hiddenTitleBar)
         .commands {
-            CommandGroup(replacing: .newItem) {}
+            disableNewWindowCommand()
         }
+    }
+
+    private func disableNewWindowCommand() -> some Commands {
+        CommandGroup(replacing: .newItem) {}
     }
 }
 
 class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationDidFinishLaunching(_ notification: Notification) {
-        // アプリ起動時の初期化処理
-        print("Wallpaper Hub started")
+        logApplicationLaunch()
     }
 
     func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool {
-        return true
+        true
+    }
+
+    private func logApplicationLaunch() {
+        print("Wallpaper Hub started")
     }
 }

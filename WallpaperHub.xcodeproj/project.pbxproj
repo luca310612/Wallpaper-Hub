@@ -14,6 +14,8 @@
 		A1000005000000000000001 /* WallpaperDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000005000000000000001 /* WallpaperDetailView.swift */; };
 		A1000006000000000000001 /* DropZoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000006000000000000001 /* DropZoneView.swift */; };
 		A1000007000000000000001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2000007000000000000001 /* Assets.xcassets */; };
+		A1000008000000000000001 /* WallpaperEngineParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200000A000000000000001 /* WallpaperEngineParser.swift */; };
+		A1000009000000000000001 /* WallpaperEngineProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200000B000000000000001 /* WallpaperEngineProject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		A2000007000000000000001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2000008000000000000001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2000009000000000000001 /* WallpaperHub.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WallpaperHub.entitlements; sourceTree = "<group>"; };
+		A200000A000000000000001 /* WallpaperEngineParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperEngineParser.swift; sourceTree = "<group>"; };
+		A200000B000000000000001 /* WallpaperEngineProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperEngineProject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,8 @@
 			children = (
 				A2000003000000000000001 /* WallpaperItem.swift */,
 				A2000004000000000000001 /* WallpaperManager.swift */,
+				A200000A000000000000001 /* WallpaperEngineParser.swift */,
+				A200000B000000000000001 /* WallpaperEngineProject.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -163,6 +169,8 @@
 				A1000004000000000000001 /* WallpaperManager.swift in Sources */,
 				A1000005000000000000001 /* WallpaperDetailView.swift in Sources */,
 				A1000006000000000000001 /* DropZoneView.swift in Sources */,
+				A1000008000000000000001 /* WallpaperEngineParser.swift in Sources */,
+				A1000009000000000000001 /* WallpaperEngineProject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

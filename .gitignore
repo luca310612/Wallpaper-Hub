@@ -91,3 +91,5 @@ iOSInjectionProject/
 
 # macOS
 .DS_Store
+WallpaperHub/wallpaper_image/**/*.pkg
+WallpaperHub/wallpaper_image/**/*.pkg
